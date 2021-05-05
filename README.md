@@ -1,6 +1,10 @@
 # BERT-multilabel-classification
-Fine tuning BERT for multi label classification. Only 2 files (run_glue.py and utils_glue.py) of pytorch-transformers are modified. 
+Fine tuning BERT for multi label or binary classification. 
+
+For multi label approach, only 2 files (run_glue.py and utils_glue.py) are modified from version 1.0.0. of huggingface/transformers. 
 
 Original multilabel sequence classification class can be found here: https://github.com/kaushaltrivedi/bert-toxic-comments-multilabel/blob/master/toxic-bert-multilabel-classification.ipynb
 
-This code was built for old version (0.6.1) of pytorch-transformers repository. The files in this repository is compatible with version 1.0.0.
+For binary classification approach, only 1 file (run_classifier.py) is modified from version 0.6.1. of huggingface/transformers. 
+
+
