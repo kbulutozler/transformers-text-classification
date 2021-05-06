@@ -1,4 +1,4 @@
-# BERT-multilabel-classification
+# BERT-text-classification
 Fine tuning BERT for multi label or binary classification. 
 
 For multi label approach, only 2 files (run_glue.py and utils_glue.py) are modified from version 1.0.0. of huggingface/transformers. 
